@@ -1,0 +1,229 @@
+body {
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  }
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+}
+
+#leftitems{
+    display: flex;
+    flex-direction: row;
+}
+
+.stepname {
+    font-size: 16px;
+}
+
+nav{
+    box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.1);
+}
+
+#leftitems > * {
+    padding: 0.5rem 1.2rem;
+    border: 0 1rem solid black;
+    cursor: pointer;
+}
+
+#logo > img {
+    width: 100px;
+    height: 50px;
+}
+
+.unit{
+    background-color: #88975B;
+    color: white;
+}
+
+#step1tick , 
+#step2tick , 
+#step3tick , 
+#step4tick , 
+#step5tick , 
+#step6tick , 
+#step7tick{
+    display:none;
+}
+
+
+#cost{
+    background-color: #596D96;
+    color: white;
+}
+
+.cost{
+    background-color: white;
+    color: #596D96;
+    border: 0.1rem solid #00000029;
+}
+
+#schemes{
+    background-color: #985E69;
+    color: white;
+}
+
+.schemes{
+    background-color: white;
+    color: #985E69;
+    border: 0.1rem solid #00000029;
+}
+
+#form{
+    background-color: #D57846;
+    color: white;
+}
+
+.form{
+    background-color: white;
+    color: #D57846;
+    border: 0.1rem solid #00000029;
+}
+
+#payment{
+    background-color: #88975B;
+    color: white;
+}
+
+.payment{
+    background-color: white;
+    color: #88975B;
+    border: 0.1rem solid #00000029;
+}
+
+#details{
+    background-color: #596D96;
+    color: white;
+}
+
+.details{
+    background-color: white;
+    color: #596D96;
+    border: 0.1rem solid #00000029;
+}
+
+#agreement{
+    background-color: #985E69;
+    color: white;
+}
+
+.agreement{
+    background-color: white;
+    color: #985E69;
+    border: 0.1rem solid #00000029;
+}
+
+#rightitems{
+    display: flex;
+    flex-direction: row;
+}
+
+#rightitems > * {
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+}
+
+#bookingamt{
+    background-color: #596D96;
+    color: white;
+}
+
+#bookingamt > b{
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.icons{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.widgets_div .icon_div {
+	display: inline-block;
+}
+
+.widgets_div .icon_div span i {
+	font-size: 1rem;
+}
+
+.icon_div > span {
+  display:table;
+}
+
+.widgets_div .text_div {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.widgets_div .text_div span {
+	font-size: 0.9rem;
+    letter-spacing: 0.03rem;
+}
+
+.widgets_div .text_div span + span {
+	font-size: 0.85rem;
+}
+
+ #icontext {
+	color:  black;
+	font-size: 1rem;
+}
+
+#iconbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dashboardbtn , #loginbtn{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #839157;
+    border-color: #839157;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#Sidebuttons {
+    height: auto;
+    float: right;
+    margin-top: 15%;
+    margin-left: -7%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Sidebuttons > button {
+    text-align: left;
+    margin: 0.7rem 0rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    cursor: pointer;
+}
+
+#map{
+    border: 0.2rem solid #D57846;
+    background-color: #D57846;
+    color: white;
+}
+
+#brochure{
+    border: 0.2rem solid #596D96;
+    background-color: #596D96;
+    color: white;
+}
+
+#visit {
+    border: 0.2rem solid #985E69;
+    background-color: #985E69;
+    color: white;
+}
+
+#FYOC{
+    border: 0.2rem solid #985E69;
+    background-color: #985E69;
+    color: white;
+}

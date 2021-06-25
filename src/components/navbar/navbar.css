@@ -1,0 +1,104 @@
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#leftitems{
+    display: flex;
+    flex-direction: row;
+}
+
+#leftitems > * {
+    padding: 0.7rem 1.5rem;
+    border: 0 1rem solid black;
+    cursor: pointer;
+}
+
+#logo{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#unit{
+    background-color: #88975B;
+    color: white;
+}
+
+#cost{
+    background-color: #596D96;
+    color: white;
+}
+
+#schemes{
+    background-color: #E8B909;
+    color: white;
+}
+
+#form{
+    background-color: #D57846;
+    color: white;
+}
+
+#payment{
+    background-color: #88975B;
+    color: white;
+}
+
+#agreement{
+    background-color: #596D96;
+    color: white;
+}
+
+#rightitems{
+    display: flex;
+    flex-direction: row;
+}
+
+#rightitems > * {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+#bookingamt{
+    background-color: #596D96;
+    color: white;
+}
+
+#bookingamt > b{
+    font-size: 1.2rem;
+}
+
+.icons{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.widgets_div .icon_div {
+	display: inline-block;
+}
+
+.widgets_div .icon_div span i {
+	font-size: 1rem;
+}
+
+.icon_div > span {
+  display:table;
+}
+
+.widgets_div .text_div {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.widgets_div .text_div span {
+	color: white;
+	font-size: 1rem;
+}
+
+.widgets_div .text_div span + span {
+	color: white;
+	font-size: 1rem;
+}

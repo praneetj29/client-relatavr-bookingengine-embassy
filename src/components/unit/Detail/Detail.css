@@ -1,0 +1,86 @@
+#main-div{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 13%;
+}
+
+#detail-title > p{
+    font-size: 2rem;
+    color:#88975B;
+}
+
+#upperinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+#⏩ , #⏪ {
+    padding: 1rem 2rem;
+    letter-spacing: 0.1px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+
+#⏩ {
+    background-color: #88975B;
+    color: white;
+    border-radius: .5rem;
+    border: 0rem;
+}
+
+#⏪{
+    background-color: white;
+    color: #596D96;
+    border-radius: .5rem;
+    border: 0.1rem #596D96 solid;
+}
+
+#middleinfo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 0rem;
+}
+
+.circle {
+    padding: 1rem 1rem;
+    letter-spacing: 0.1px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#unselected {
+    background-color: white;
+    color: #88975B;
+    border: 0.1rem#88975B solid;
+}
+
+#selected {
+    background-color: #88975B;
+    color: aliceblue;
+    border: 0rem;
+    box-shadow: 0 0 5px rgb(185, 185, 185);
+}
+
+#DN{
+    color: #596D96;
+    border: 0.1rem solid #596d96;
+    background-color: white;
+}
+
+#final-info{
+    display: grid;
+    place-items: center;
+}
+
+#final-info > img{
+    max-width:100%;
+    max-height:100%;
+}

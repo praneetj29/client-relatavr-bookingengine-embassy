@@ -1,0 +1,32 @@
+.otherscontainer{
+    border: 0.15rem solid #D57846;
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 2rem;
+}
+
+.otherscontainercontent{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+}
+
+.otherscontainercontent > input {
+    border: 0.15rem solid #D57846;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    padding: 0.7rem;
+}
+
+.otherscontainercontent > h2 {
+   color: #D57846;
+   margin-bottom: 1rem;
+}
+
+.otherscontainercontent > h4 {
+    color: #D57846;
+ }
+ 

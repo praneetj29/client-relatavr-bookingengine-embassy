@@ -1,0 +1,516 @@
+{
+	"info": {
+		"_postman_id": "37caba33-cdb1-464b-b665-8bdf5418f35f",
+		"name": "EmbassyAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "update existing Applicant to Salesforce (PUT)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQGO37Zu.56tjd88IO87Or2kz4CBY7r9yNL373mqM9b6jb1GpLkGR27Kp3m5yIcusQYGQIC_ckiq3Qw86Qe27HUbIU7k9"
+					}
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"applicant_id\": \"0011m00000JtSKaAAN\",\r\n    \"salutation\": \"Mr.\",\r\n    \"first_name\": \"kkk\",\r\n    \"last_name\": \"kkk\",\r\n    \"email_address\": \"kkk@gmail.com\",\r\n    \"mobile_number\": \"9898000098\",\r\n    \"date_of_birth\": \"2021-04-02\",\r\n    \"fathers_name\": \"\",\r\n    \"pan\": \"AAAAA1234E\",\r\n    \"aadhar\": \"656565656565\",\r\n    \"permanent_city\": \"\",\r\n    \"permanent_country\": \"\",\r\n    \"permanent_pincode\": \"\",\r\n    \"permanent_state\": \"\",\r\n    \"permanent_street\": \"\",\r\n    \"corresponding_city\": \"\",\r\n    \"corresponding_country\": \"\",\r\n    \"corresponding_pincode\": \"\",\r\n    \"corresponding_state\": \"\",\r\n    \"corresponding_street\": \"\",\r\n    \"other_phone\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/embassyOne/PAP/",
+				"description": "update existing Applicant to Salesforce (PUT)  "
+			},
+			"response": []
+		},
+		{
+			"name": "CostBreakup (Costsheet)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test.salesforce.com/services/oauth2/token?grant_type=refresh_token&refresh_token=5Aep8613wlbvVohodL0zmG9OdXn2bFeyRYSi8e7Mg1p2N05YyPkaAR5YdUNaJKMbYY5IxvhU_WpgZ..LWY_XY5B&client_id=3MVG9Gdzj3taRxuNZGYlwtt.EvruuoQJVX4ykpt3kSqTFCGrWP_gEWQThbjvEbIxMOsayLSlmGaPPafa1LX75&client_secret=31ABF63DAEB0E10194153E314F0CFD7EE089FEBD53D59938A6A7DA6116CC8676",
+					"protocol": "https",
+					"host": [
+						"test",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"oauth2",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "refresh_token"
+						},
+						{
+							"key": "refresh_token",
+							"value": "5Aep8613wlbvVohodL0zmG9OdXn2bFeyRYSi8e7Mg1p2N05YyPkaAR5YdUNaJKMbYY5IxvhU_WpgZ..LWY_XY5B"
+						},
+						{
+							"key": "client_id",
+							"value": "3MVG9Gdzj3taRxuNZGYlwtt.EvruuoQJVX4ykpt3kSqTFCGrWP_gEWQThbjvEbIxMOsayLSlmGaPPafa1LX75"
+						},
+						{
+							"key": "client_secret",
+							"value": "31ABF63DAEB0E10194153E314F0CFD7EE089FEBD53D59938A6A7DA6116CC8676"
+						}
+					]
+				},
+				"description": "For Token id"
+			},
+			"response": []
+		},
+		{
+			"name": "UnitDetails",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQBvo0CT6HsD.61v4Ly03UN8XRikgj82fdIL3EgvfIU6dS8S.y3eS0eFZZbOPXVxfYwN2sC2Mgj8EQHl_lQdI1.8L3ScX"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://embassygroup--uatrelease.my.salesforce.com//services/apexrest/embassyOne/UNT/a0K0I00000LSiLP,",
+				"description": "CostBreakup (Costsheet)"
+			},
+			"response": [
+				{
+					"name": "UnitDetails",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "https://embassygroup--uatrelease.my.salesforce.com//services/apexrest/embassyOne/UNT/a0K0I00000LSiLP,"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "raw",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 07 May 2021 13:44:46 GMT"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536002; includeSubDomains"
+						},
+						{
+							"key": "X-Robots-Tag",
+							"value": "none"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache,must-revalidate,max-age=0,no-store,private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/octetstream"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{  \"status\" : \"success\",  \"content\" : [ {    \"unit_id\" : \"a0K0I00000LSiLPUA1\",    \"unit_number\" : \"1001\",    \"projectid\" : \"a0L0I00000BOhnFUAT\",    \"project_name\" : \"Embassy Edge Apartments\",    \"block_name\" : \"Hibisicus - A\",    \"floor_no\" : \"10th Floor\",    \"unit_type\" : \"3BHK - 3T - A1\",    \"unit_facing\" : \"East\",    \"uds\" : 0.1515,    \"power_supply\" : 0.00,    \"agreement_value\" : 7518610.10,    \"basement_car_parking\" : 0.00,    \"basic_rate_per_sqft\" : 5597.00,    \"basic_cost\" : 7518450.10,    \"built_up_area\" : 0.0,    \"club_charges\" : 0.00,    \"car_parking_charges\" : 0.00,    \"corpus_fund_charges\" : 0.00,    \"discount_on_base_rate\" : 0.0,    \"eb_stp_charges\" : 0.00,    \"floor_rise\" : 160.00,    \"infrastructure_charges\" : 0.00,    \"land_cost\" : 1343300.00,    \"land_per_sqft\" : 1000.00,    \"legal_charges_roll_up\" : 0.00,    \"location_charges\" : 0.00,    \"location_charges_in_Sqft\" : 0.00,    \"maintenance_deposit\" : 0.00,    \"other_charges_inclusive_of_taxes\" : 294827.48,    \"other_charges_tax_amount\" : 44973.68,    \"total_basic_cost\" : 7733378.10,    \"total_cost\" : 8028205.58,    \"total_land_cost\" : 1343300.00,    \"total_other_charges\" : 249853.80,    \"water_and_sewerage\" : 0.00,    \"Publish\" : true,    \"Status\" : \"Blocked\"  } ]}"
+				}
+			]
+		},
+		{
+			"name": "BookBlockUnitAPI",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQBvo0CT6HsD.61v4Ly03UN8XRikgj82fdIL3EgvfIU6dS8S.y3eS0eFZZbOPXVxfYwN2sC2Mgj8EQHl_lQdI1.8L3ScX\n"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"namrata\",\r\n    \"lastname\": \"kinagi\",\r\n    \"mobile\": \"1234567828\",\r\n    \"email\": \"nm18@gmail.com\",\r\n    \"unitId\": \"a0K0I00000LShiB\",\r\n    \"projectId\": \"a0L0I00000BOhnF\",\r\n    \"schemeId\": \"a0W0I00000TYFSv\",\r\n    \"discount\":\"\",\r\n    \"aadharNumber\": \"\",\r\n    \"pannumber\": \"\",\r\n    \"street\": \"\",\r\n    \"city\": \"\",\r\n    \"state\": \"\",\r\n    \"country\": \"\",\r\n    \"pincode\": \"\",\r\n    \"coapplicant1id\": \"\",\r\n    \"coapplicant2id\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/EmbassyOne/leadProcesses?id=00Q1m000001U17REAS&type=Blocked",
+					"protocol": "https",
+					"host": [
+						"embassygroup--uatrelease",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"EmbassyOne",
+						"leadProcesses"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "00Q1m000001U17REAS"
+						},
+						{
+							"key": "type",
+							"value": "Blocked"
+						}
+					]
+				},
+				"description": "UnitDetails"
+			},
+			"response": [
+				{
+					"name": "BookBlockUnitAPI",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstname\": \"namrata\",\r\n    \"lastname\": \"kinagi\",\r\n    \"mobile\": \"1234567828\",\r\n    \"email\": \"nm18@gmail.com\",\r\n    \"unitId\": \"a0K0I00000LShiB\",\r\n    \"projectId\": \"a0L0I00000BOhnF\",\r\n    \"schemeId\": \"a0W0I00000TYFSv\",\r\n    \"discount\":\"\",\r\n    \"aadharNumber\": \"\",\r\n    \"pannumber\": \"\",\r\n    \"street\": \"\",\r\n    \"city\": \"\",\r\n    \"state\": \"\",\r\n    \"country\": \"\",\r\n    \"pincode\": \"\",\r\n    \"coapplicant1id\": \"\",\r\n    \"coapplicant2id\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/EmbassyOne/leadProcesses?id=00Q1m000001U17REAS&type=Blocked",
+							"protocol": "https",
+							"host": [
+								"embassygroup--uatrelease",
+								"my",
+								"salesforce",
+								"com"
+							],
+							"path": [
+								"services",
+								"apexrest",
+								"EmbassyOne",
+								"leadProcesses"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "00Q1m000001U17REAS"
+								},
+								{
+									"key": "type",
+									"value": "Blocked"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 09 May 2021 07:50:03 GMT"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536002; includeSubDomains"
+						},
+						{
+							"key": "X-Robots-Tag",
+							"value": "none"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache,must-revalidate,max-age=0,no-store,private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"errorCode\": \"APEX_ERROR\",\n        \"message\": \"System.NullPointerException: Argument 1 cannot be null\\n\\nClass.Embassy_LeadConversionAPI.convertLead: line 100, column 1\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Payment scheme (Schemewise costsheet)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQFIQSMo_C3CJ_cWf1CR4zaou__zv9U2_jkfsLh95ivGIhY8dulGen15jbRxR9_4AO8RMT1Fxf8_cHAYLbLAGy1HKcddm"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/embassyOne/CBU/a0K0I00000LShPx?schemeId=a0W0I00000YGIMZUA5",
+					"protocol": "https",
+					"host": [
+						"embassygroup--uatrelease",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"embassyOne",
+						"CBU",
+						"a0K0I00000LShPx"
+					],
+					"query": [
+						{
+							"key": "schemeId",
+							"value": "a0W0I00000YGIMZUA5"
+						}
+					]
+				},
+				"description": "Payment scheme (Schemewise costsheet)"
+			},
+			"response": []
+		},
+		{
+			"name": "ReceiptAPI",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQPlSlqHEdq4C86RKd0kfkjhHjXlohUzkOnRCHJB79_bbJRUK5P._C_g0JxXqlCjX92L5_JLF1fRv2k7Mu9Z.nd45la75"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/embassyOne/RCP?transaction_id=pay_H3u4ySWgLcByqx&receipt_date=2021-04-24&receipt_amount=50000&opportunity_id=0061m000003d1jEAAQ&collectiontype=Booking",
+					"protocol": "https",
+					"host": [
+						"embassygroup--uatrelease",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"embassyOne",
+						"RCP"
+					],
+					"query": [
+						{
+							"key": "transaction_id",
+							"value": "pay_H3u4ySWgLcByqx"
+						},
+						{
+							"key": "receipt_date",
+							"value": "2021-04-24"
+						},
+						{
+							"key": "receipt_amount",
+							"value": "50000"
+						},
+						{
+							"key": "opportunity_id",
+							"value": "0061m000003d1jEAAQ"
+						},
+						{
+							"key": "collectiontype",
+							"value": "Booking"
+						}
+					]
+				},
+				"description": "ReceiptAPI"
+			},
+			"response": []
+		},
+		{
+			"name": "AddNewCoapplicant",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQPG3deEAcXpF9i1wiBfNsjxskCcNDVa1Qbb_EfVuGDH.m7wuJ286Wa8Nb8TWLE.iUxgutoQh4LIII_IIrxlLgF9YmpWy"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"salutation\": \"Miss.\",\r\n    \"first_name\": \"kavita\",\r\n    \"last_name\": \"jk\",\r\n    \"email_address\": \"kavitajk@gmail.com\",\r\n    \"mobile_number\": \"55555\",\r\n    \"date_of_birth\": \"2001-10-22\",\r\n    \"fathers_name\": \"\",\r\n    \"pan\": \"aaaWW1234W\",\r\n    \"aadhar\": \"1111111111111\",\r\n    \"passport\": \"\",\r\n    \"corresponding_street\": \"12\",\r\n    \"corresponding_city\": \"abc\",\r\n    \"corresponding_state\": \"sss\",\r\n    \"corresponding_country\": \"sss\",\r\n    \"corresponding_pincode\": \"122222\", \"permanent_street\": \"12\",\"permanent_city\": \"abc\",\"permanent_state\": \"an\",\"permanent_country\": \"abc\",\"permanent_pincode\": \"122222\",\"userid\": \"\",\"opportunityid\": \"0061m000003d1jEAAQ\",\"other_phone\": \"\"\r\n}"
+				},
+				"url": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/embassyOne/CAP/",
+				"description": "AddNewCoapplicant"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateExisingCoapplicantdetails",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQPG3deEAcXpF9i1wiBfNsjxskCcNDVa1Qbb_EfVuGDH.m7wuJ286Wa8Nb8TWLE.iUxgutoQh4LIII_IIrxlLgF9YmpWy"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"coapplicant_id\": \"0011m00000JtmHYAAZ\",\r\n    \"salutation\": \"k.\",\r\n    \"first_name\": \"k\",\r\n    \"last_name\": \"k\",\r\n    \"email_address\": \"llk@gmail.com\",\r\n    \"mobile_number\": \"6666655555\",\r\n    \"date_of_birth\": \"1992-05-22\",\r\n    \"pan\":\"\",\r\n    \"aadhar\":\"\",\r\n    \"fathers_name\":\"\",\r\n    \"passport\":\"\",\r\n    \"permanent_city\": \"Bengaluru\",\r\n    \"permanent_country\": \"India\",\r\n    \"permanent_pincode\": \"560071\",\r\n    \"permanent_state\": \"Karnataka\",\r\n    \"permanent_street\": \"EGL\",\r\n    \"corresponding_city\":\"Hyderabad\",\r\n    \"corresponding_country\": \"India\",\r\n    \"corresponding_pincode\": \"56123\",\r\n    \"corresponding_state\": \"Telangana\",\r\n    \"corresponding_street\": \"Ameerpet\",\r\n    \"opportunityid\": \"0061m000003d1jEAAQ\",\r\n    \"other_phone\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/embassyOne/CAP/",
+				"description": "UpdateExisingCoapplicantdetails"
+			},
+			"response": []
+		},
+		{
+			"name": "GetCoapplicantDetails",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQPlSlqHEdq4C86RKd0kfkjhHjXlohUzkOnRCHJB79_bbJRUK5P._C_g0JxXqlCjX92L5_JLF1fRv2k7Mu9Z.nd45la75"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "https://embassygroup--uatrelease.my.salesforce.com/services/apexrest/embassyOne/CAP/0061m000003d1jEAAQ",
+				"description": "GetCoapplicantDetails"
+			},
+			"response": []
+		},
+		{
+			"name": "refreshToken",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test.salesforce.com/services/oauth2/token?grant_type=refresh_token&refresh_token=5Aep8613wlbvVohodL0zmG9OdXn2bFeyRYSi8e7Mg1p2N05YyPkaAR5YdUNaJKMbYY5IxvhU_WpgZ..LWY_XY5B&client_id=3MVG9Gdzj3taRxuNZGYlwtt.EvruuoQJVX4ykpt3kSqTFCGrWP_gEWQThbjvEbIxMOsayLSlmGaPPafa1LX75&client_secret=31ABF63DAEB0E10194153E314F0CFD7EE089FEBD53D59938A6A7DA6116CC8676",
+					"protocol": "https",
+					"host": [
+						"test",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"oauth2",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "refresh_token"
+						},
+						{
+							"key": "refresh_token",
+							"value": "5Aep8613wlbvVohodL0zmG9OdXn2bFeyRYSi8e7Mg1p2N05YyPkaAR5YdUNaJKMbYY5IxvhU_WpgZ..LWY_XY5B"
+						},
+						{
+							"key": "client_id",
+							"value": "3MVG9Gdzj3taRxuNZGYlwtt.EvruuoQJVX4ykpt3kSqTFCGrWP_gEWQThbjvEbIxMOsayLSlmGaPPafa1LX75"
+						},
+						{
+							"key": "client_secret",
+							"value": "31ABF63DAEB0E10194153E314F0CFD7EE089FEBD53D59938A6A7DA6116CC8676"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertLead",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "00D1m0000000jTE!AQ0AQDzZbgvEq.Z9m_NnJlYZv4wjOX4bz6wrUI92Q8LOUlSngYT5la..k0Hcrs3N4iJFywCYDLkW.pdkJzioOY81b4bUV2Xd"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"vww\",\r\n    \"lastname\": \"vww\",\r\n    \"mobile\": \"9888888888\",\r\n    \"email\": \"aa888@mail.com\",\r\n    \"Project_interested\": \"Embassy Edge\",\r\n    \"owner\": \"LMT Queue\",\r\n    \"country_code\":\"+91\",\r\n    \"sitevisitdate\": \"14/05/2020 11:46 AM\",\r\n    \"sitevisitstatus\": \"scheduled\",\r\n    \"sitevisitschedule\": \"Yes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://embassygroup--uatrelease.my.salesforce.com//services/apexrest/embassyOne/LeadFlows"
+			},
+			"response": []
+		}
+	]
+}

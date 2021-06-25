@@ -1,0 +1,139 @@
+  .maincontent{
+    margin: 0% 20%;
+    padding: 2%;
+  }
+  
+  #title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  #previous{
+    padding: 0.7rem 2rem;
+    margin: 0rem 0.5rem;
+    border: 0.1rem solid #d8ac9c;
+    border-radius: 0.5rem;
+    color: #d8ac9c;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #continue{
+      padding: 0.7rem 2rem;
+      margin: 0rem 0.5rem;
+      border: 0.1rem solid #596D96;
+      border-radius: 0.5rem;
+      color: white;
+      background-color: #596D96;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  #sectionelements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  #costsheetheading{
+    color: #28527a;
+    font-size: 2.5rem;
+  }
+  
+  #subheadings{
+    font-size: 2rem;
+    color: #596D96;
+  }
+  
+  img:hover{
+    cursor: pointer;
+  }
+  
+  .download_icon{
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  #costsection{
+    border: 0.125rem solid #596D96;
+    border-radius: 0.6rem;
+    margin-top: 1.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #ccc;
+  }
+  
+  #costbreakdown{
+    color: #28527a;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #costbreakdownin{
+    color: #28527a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 0.125rem solid #596D96;
+    margin: 5% 10%;
+    border-radius: 0.6rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #ccc;
+  }
+
+  #costbreakdownin > .titles {
+    margin: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+  }
+  
+  #costbreakdownin > hr {
+    color: red;
+    height: 0.1rem dotted;
+  }
+  #outerdiv{
+    color: #28527a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #titles{
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    text-transform: capitalize;
+  }
+  
+  #values{
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    font-weight: bold;
+    text-align: right;
+    text-transform: capitalize;
+  }
+  
+  #total{
+    color: #596D96;
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: sub;
+  }
+  
+  #mainamount{
+    font-size: 1.4rem;
+  }
+
+  .costsheettitles{
+    padding: 0.5rem 0rem;
+  }
+
+  .costsheetvalues{
+    padding: 0.5rem 0rem;
+  }

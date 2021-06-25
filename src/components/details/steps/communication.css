@@ -1,0 +1,105 @@
+.communicationcontainer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.communicationcontainercontent{
+    display: flex;
+    flex-direction: row;
+    margin: 0 15%;
+}
+
+.communicationdetails{
+    display: flex;
+    flex-direction: column;
+    border: 0.15rem solid #596D96;
+    border-radius: 0.7rem;
+    width: 40rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.communicationdetails > input {
+    border: 0.13rem solid #596D96;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.communicationdetails > h2 {
+    color: #596D96;
+}
+
+.communicationdetails > span {
+    color: #596D96;
+}
+
+.addapplicantbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    border: 0.15rem solid #596D96;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.addapplicantbtn > h3{
+    color:  #596D96;
+}
+
+.applicantdetails{
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: auto;
+    border: 0.15rem solid #596D96;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.applicantdetails > #applicanttitle{
+    color: #596D96;
+}
+/* .addpplicantdetails{
+    height: 10rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #31326f;
+    color:white;
+    border-radius: 0.7rem;
+} */
+
+.applicantdetails > h3 {
+    color: #596D96;
+}
+
+.newapplicantwrapper {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.applicantbtn {
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 1% 2%;
+    background-color: #596D96;
+    border: 0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}

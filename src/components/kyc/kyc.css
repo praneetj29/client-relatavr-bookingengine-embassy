@@ -1,0 +1,73 @@
+ .kyccontainer {
+    border: 2px solid #D57846;
+    border-radius: 1rem;
+    margin: 0% 15%;
+    padding: 1rem;
+  }
+  #kycwrapper > h1{
+    margin: 0% 15%;
+    padding: 1rem;
+    color: #D57846;
+  }
+  .form-container{
+    display: flex;   
+    justify-content: space-between;
+    margin: 0 10%;
+    align-items:flex-end;
+  }
+  
+  .form-container > * {
+    color: #D57846;
+  }
+  
+  .form-control > input , select{
+    padding: 0.5rem;
+    border: 1.5px solid #D57846;
+    border-radius: 0.2rem;
+  }
+  
+  .form-control-bottom > *{
+      margin-left: 1rem;
+  }
+  
+  .form-control{
+    flex: 1;
+  }
+  
+  .form-control > * {
+      margin: 1% 0;
+  }
+
+  .error{
+    color: black;
+  }
+  
+  .form-container-upload{
+    display: flex;   
+    justify-content: space-between;
+    margin: 0 10%;
+    align-items:flex-end;
+    color: #D57846;
+  }
+  
+  .btn{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    box-shadow: 0 0 5px grey;
+  }
+  
+  .main {
+    background-color: #D57846;
+    color: white;
+    border: 0;
+  }
+  
+  .prev{
+    color: #D57846;
+    background-color: white;
+    border: 0.1rem solid #D57846;;
+  }

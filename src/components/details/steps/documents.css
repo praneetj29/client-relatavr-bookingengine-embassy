@@ -1,0 +1,39 @@
+.documentscontainer{
+    border: 0.15rem solid #985E69;
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 2rem;
+}
+
+.documentscontainercontent{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+}
+
+.documentscontainercontent > input {
+    border: 0.15rem solid #985E69;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    padding: 0.7rem;
+}
+
+.documentscontainercontent > h2 {
+    color: #985E69;
+    margin-bottom: 1rem;
+}
+
+.documentscontainercontent > h4 {
+    color: #985E69;
+}
+
+.file{
+    flex: 2;
+}
+
+.buttons{
+    flex:1;
+}

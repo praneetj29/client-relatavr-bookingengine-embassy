@@ -1,0 +1,105 @@
+#maindashboard {
+    background-image: url('./building.jpg');
+    background-size: cover;
+}
+
+#dashwrapper{
+    margin: 0 20%;
+    padding: 5rem 0rem;
+}
+
+#dashupperbar > button {
+    background-color: #88975B;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: 0.2rem solid #88975B;
+    color: white;
+}
+
+#tagline{
+    padding: 2rem 0rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#dashupperbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#bookedtime{
+    background-color: #88975B;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    margin: 1.5rem 0rem;
+}
+
+.bookedrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+}
+
+
+#timeleft{
+    font-size: 3rem;
+}
+
+#booknow{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#buyerdetails{
+    background-color: #596D96;
+    padding: 1.5rem 2.5rem;
+    margin: 1.5rem 0rem;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#statusdetails{
+    line-height: 1.7rem;
+}
+
+#continuebuying{
+    cursor: pointer;
+}
+
+#finaldetails{
+    background-color: white;
+    color: #596D96;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+}
+
+.dashcustomerinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.finaldetailvalues{
+    text-align: right;
+}
+
+hr{
+    margin: 1rem 0rem;
+    height: 0.1rem;
+}
+#flatstatusdetails{
+    line-height: 3rem;
+}
+
+#finalamount{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

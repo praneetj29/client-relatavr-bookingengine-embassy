@@ -1,0 +1,59 @@
+#detailsparent > h1{
+    color: #596D96;
+    margin: 2% 20%;
+}
+
+#detailselements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+#detailselements > * {
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+}
+
+#communication {
+    background-color: #596D96;
+    color: white;
+    cursor: pointer;
+}
+
+#docs {
+    background-color: #985E69;
+    color: white;
+    cursor: pointer;
+}
+
+#others {
+    background-color: #D57846;
+    color: white;
+    cursor: pointer;
+}
+
+#detailsnav{
+    text-align: end;
+    margin: 0 20%;
+}
+
+#detailsnavprev , #detailsnavnext{
+    padding: .7rem 2rem;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#detailsnavnext{
+    background-color: #D57846;
+    border-color: #D57846;
+    color: #FFFFFF;
+}
+
+#detailsnavprev{
+    color: #985E69;
+    border-color: 0.1rem solid #985E69;
+    background-color: #FFFFFF;
+}

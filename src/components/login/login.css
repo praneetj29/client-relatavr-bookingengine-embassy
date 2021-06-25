@@ -1,0 +1,148 @@
+.logincontainer{
+    background-image: url('./embassy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 92vh;
+    color:#596D96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginform {
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+    padding: 1rem;
+    border: 0.2rem solid #596D96;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 25rem;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+}
+
+#registrationform {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.3rem solid #596D96;
+}
+
+#postotp {
+    display: none;
+    flex-direction: column;
+}
+
+#postotp > input {
+    border: none;
+    outline: none;
+    padding: 1rem .5rem;
+    margin: 0.2rem 0.2rem;
+    font-family: 'Montserrat' , 'Times New Roman', Times, serif;
+}
+
+#registrationform > input , select{
+    border: none;
+    outline: none;
+    padding: 1rem .3rem;
+    margin: 0.2rem 0.2rem;
+    font-family: 'Montserrat' , 'Times New Roman', Times, serif;
+}
+
+#otpbtn , #signup{
+    background-color: #D57846;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#gotologin {
+    margin: 1rem 0rem;
+}
+
+.inputfield {
+    margin: 1rem 0;
+    border: 0;
+    outline: none;
+}
+
+#loginform > input[type=submit]{
+    padding: 1rem 2rem;
+    margin-bottom: 0.5rem;
+    background-color: #D57846;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+    border-radius: 0.3rem;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#gotologin {
+    cursor: pointer;
+    text-align: center;
+}
+
+#registerform > input[type=submit]{
+    padding: 1rem 2rem;
+    margin-bottom: 0.5rem;
+    background-color: #D57846;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+    border-radius: 0.3rem;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#forgotpass {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+}
+
+#register , #logintitle{
+    color: red;
+}
+
+#register {
+    cursor: pointer;
+}
+
+#termsandcon {
+    margin: 0.5rem;
+    font-size: 0.65rem;
+    text-align: center;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+}
+
+#fnamerror , 
+#lnamerror , 
+#emailerror , 
+#regmobileerror ,
+#regpasserr,
+#regpass2err{
+    display: none;
+    font-size: 0.65rem;
+}
+
+#passerror , 
+#mobileerror {
+    font-size: 0.65rem;
+}
+
+#postotp{
+    display: none;
+}
+
+#signup {
+    display: none;
+}

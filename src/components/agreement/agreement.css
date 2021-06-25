@@ -1,0 +1,54 @@
+#agreementcontent{
+    margin: 0% 25%;
+    padding: 2%;
+}
+
+#agreementsection{
+    border: 0.125rem solid #596D96;
+    border-radius: 0.6rem;
+    margin-top: 1.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #ccc;
+    display: grid;
+    place-items: center;
+  }
+
+  #agreementactions{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+  }
+
+   .actions > #previous{
+        padding: 0.7rem 1rem;
+        margin: 0rem 0.5rem;
+        border: 0.1rem solid #d8ac9c;
+        border-radius: 0.3rem;
+        color: #d8ac9c;
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+.actions > #continue{
+    padding: 0.7rem 1rem;
+    margin: 0rem 0.5rem;
+    border: 0.1rem solid #28527a;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: #28527a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#trmsandconditn{
+    text-decoration: underline;
+    color: #985E69;
+    cursor: pointer;
+}
+
+#termsdiv{
+    background-color:#ffffff;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}

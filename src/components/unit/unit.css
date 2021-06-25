@@ -1,0 +1,162 @@
+.unitwrapper{
+    border: 0.15 rem solid #88975B;
+    color: #88975B;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.filtersSection{
+    height: 48rem;
+    width: 20rem;
+    margin: 0.5rem;
+}
+
+select {
+    cursor: pointer;
+}
+.svgSection{
+    border: 0.15rem solid #596D96;
+    height: 48rem;
+    min-width: 80rem;
+    max-width: 60rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    overflow: auto;
+    width: 100%;
+}
+
+.svgSection > svg {
+    width: 100%; 
+    height: auto;
+}
+
+.svgrender{
+    height: 90%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.filters{
+    text-align: left;
+    padding: 1rem 0rem;
+    border: 0.15rem solid #88975B;
+    height: 44rem;
+    width: 18rem;
+    border-radius: 1rem;
+}
+
+.zoom{
+    visibility: hidden;
+}
+
+#filterheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2rem;
+}
+
+#UnitHeader {
+    margin-bottom: 1.8rem;
+}
+
+#filterheader > select{
+    padding: 0.5rem 1rem;
+    margin: 0.7rem 0rem;
+}
+
+#⚙{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#⚙ > img:hover{
+    cursor:default;
+}
+
+.zoom{
+    padding: 0.2rem;
+}
+
+.Tower{
+    color: #88975B;
+    border-radius: 0.4rem;
+    border: 0.15rem solid #88975B;
+    margin: 10rem 5rem;
+}
+
+.Block{
+    border-radius: 0.4rem;
+    border: 0.15rem solid #596D96;
+    color: #596D96;
+}
+
+.Floor{
+    border-radius: 0.4rem;
+    border: 0.15rem solid #985E69;
+    color: #985E69;
+}
+
+.Configuration{
+    border-radius: 0.4rem;
+    border: 0.15rem solid #D57846;
+    color: #D57846;
+}
+
+.Facing{
+    border-radius: 0.4rem;
+    border: 0.15rem solid #596D96;
+    color: #596D96;
+}
+
+.PriceRange{
+    border-radius: 0.4rem;
+    border: 0.15rem solid #88975B;
+    color: #88975B;
+}
+
+.View{
+    border-radius: 0.4rem;
+    border: 0.15rem solid #985E69;
+    color: #985E69;
+}
+
+#primaryapplybtn{
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0rem;
+    border: 0.15rem solid #88975B;
+    background-color: #88975B;
+    border-radius: 0.4rem;
+    color: White;
+    cursor: pointer;
+}
+
+#secondaryapplybtn{
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 0rem;
+    color: white;
+    background-color:#596D96;
+    border: 0.15rem solid #596D69;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+#zoomin , #zoomout{
+    background-color: white;
+    border: 0.1rem solid grey;
+    color: #495057; 
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+#zoomingbtns{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
